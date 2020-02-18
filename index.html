@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title></title>
+</head>
+
+<body>
+
+  <!-- Instructions -->
+
+  <div class="jumbotron">
+    <div class="container  instructions">
+      <h1>Welcome to game message</h1>
+      <p>Instructions go here.</p>
+    </div>
+  </div>
+
+
+  <!-- Target Number -->
+  <div class="container">
+    <div class="row">
+
+
+
+      <div class="col-lg-3 target-number">
+        <h4>Your target number is: <span id="target-number"></span></h4>
+      </div>
+
+      <div class="col-lg-6 target-number">
+        <!-- Empty div for spacing purposes -->
+      </div>
+
+      <!-- Current Score -->
+      <div class="col-lg-3 current-score">
+        <h4>Your current score is: <span id="current-score"></span></h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Crystals -->
+  <div class="container crystals">
+    <img src="assets/images/crystal1.png" class="crystal-img" alt="">
+    <img src="assets/images/crystal2.png" class="crystal-img" alt="">
+    <img src="assets/images/crystal3.png" class="crystal-img" alt="">
+    <img src="assets/images/crystal4.png" class="crystal-img" alt="">
+  </div>
+
+  <!-- Wins/Losses -->
+
+  <div class="container wins-losses">
+    <h5>Wins: <span id="wins"></span></h5>
+    <h5>Losses: <span id="losses"></span></h5>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Javascript -->
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
