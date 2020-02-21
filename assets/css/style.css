@@ -1,7 +1,15 @@
+body {
+  position: relative;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kaushan Script', cursive;
   padding-bottom: 5px;
   line-height: 1.5;
+}
+
+h1 {
+  font-size: 7rem;
 }
 
 p {
@@ -10,38 +18,38 @@ p {
 }
 
 .jumbotron {
-  background-image: url("../images/crystals-background1.png");
+  background-image: url("../images/bkg3.png");
   background-size: cover;
-  height: 50%;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0;
   z-index: 1;
 }
 
+.title {
+  margin: 4% 0;
+  text-align: center;
+}
+
 .instructions {
-  margin: 7% 0;
-  padding: 0 7%;
-  color: white;
+  margin-top: 2%;
+}
+
+.instruction-headers {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
 }
 
 .user-interface {
-  margin-top: 4%;
+  margin-top: 2%;
   position: relative;
-  /* height: 50%; */
 }
-
-/* .target-number {
-  background-color: palegoldenrod;
-  height: 70%;
-} */
-
 
 .crystals {
   text-align: center;
 }
 
 .crystal-img {
-  padding: 10% 0;
+  padding: 5% 0;
   width: 15%;
 }
 
@@ -52,7 +60,6 @@ p {
 
 .wins-losses {
   text-align: center;
-  margin-top: 5%;
 }
 
 
@@ -60,27 +67,24 @@ p {
 /* **************************************
 MEDIA QUERIES
 ************************************** */
+@media screen and (max-width: 1250px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
 
-@media screen and (max-width: 1650px) {
-
+@media screen and (max-width: 990px) {
   .instructions {
-    padding: 0 20% 0;
-    color: white;
+    max-width: 50%;
   }
 
-  @media screen and (max-width: 1460px) {
+  .user-interface {
+    text-align: center;
+  }
+}
 
-    .instructions {
-      padding: 0 20% 0;
-      max-width: 75%;
-      color: white;
-    }
-
-    @media screen and (max-width: 1360px) {
-
-      .instructions {
-
-        color: white;
-      }
-
+@media screen and (max-width: 860px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
