@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Biryani|Kaushan+Script&display=swap" rel="stylesheet">
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -18,24 +21,31 @@
   <!-- Instructions -->
 
   <div class="jumbotron">
-    <div class="container  instructions">
-      <h1>Welcome to game message</h1>
-      <p>Instructions go here.</p>
+    <div class="container instructions">
+      <h1>Crystals Collector Game</h1>
+      <p>You'll be given a target number to match during
+        each round.
+        Click on the crystals below to add some points to your score.
+        But be careful! Each crystal is assigned a random number, so you'll need to be
+        vigilant in calculating how many points each crystal is adding to your total score.
+        If you match the target number, you win the round! If you go over, you lose that round.
+        The crystals' values are reset each round, so be prepared to do some mental math!</p>
     </div>
   </div>
 
 
-  <!-- Target Number -->
-  <div class="container">
+
+  <!-- User Interface -->
+  <div class="container user-interface">
     <div class="row">
 
 
-
+      <!-- Target Number -->
       <div class="col-lg-3 target-number">
         <h4>Your target number is: <span id="target-number"></span></h4>
       </div>
 
-      <div class="col-lg-6 target-number">
+      <div class="col-lg-6">
         <!-- Empty div for spacing purposes -->
       </div>
 
@@ -48,10 +58,10 @@
 
   <!-- Crystals -->
   <div class="container crystals">
-    <img src="assets/images/crystal1.png" class="crystal-img" alt="">
-    <img src="assets/images/crystal2.png" class="crystal-img" alt="">
-    <img src="assets/images/crystal3.png" class="crystal-img" alt="">
-    <img src="assets/images/crystal4.png" class="crystal-img" alt="">
+    <img src="assets/images/crystal1.png" class="crystal-img" id="crystal1" alt="">
+    <img src="assets/images/crystal2.png" class="crystal-img" id="crystal2" alt="">
+    <img src="assets/images/crystal3.png" class="crystal-img" id="crystal3" alt="">
+    <img src="assets/images/crystal4.png" class="crystal-img" id="crystal4" alt="">
   </div>
 
   <!-- Wins/Losses -->
