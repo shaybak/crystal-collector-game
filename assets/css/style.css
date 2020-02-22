@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 p {
@@ -21,12 +21,11 @@ p {
   background-image: url("../images/bkg3.png");
   background-size: cover;
   text-align: center;
-  margin-bottom: 0;
-  z-index: 1;
 }
 
 .title {
-  margin: 4% 0;
+  margin: none;
+  padding: none;
   text-align: center;
 }
 
@@ -50,7 +49,7 @@ p {
 
 .crystal-img {
   padding: 5% 0;
-  width: 15%;
+  width: 12%;
 }
 
 .crystal-img:hover {
