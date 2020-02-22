@@ -58,6 +58,7 @@ function getCrystalValues() {
 // Here is where we set functions for each crystal on the click event
 function userInterface() {
 
+
   // Using .unbind() to solve issue were clicks were firing multiple events in later rounds
   // Source code: https://stackoverflow.com/questions/14969960/jquery-click-events-firing-multiple-times
   $("#crystal1").unbind().click(function() {
@@ -67,7 +68,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    setTimeout(winLose, 1000);
+    setTimeout(winLose, 500);
 
   });
 
@@ -78,7 +79,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    setTimeout(winLose, 1000);
+    setTimeout(winLose, 500);
 
   });
 
@@ -89,7 +90,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    setTimeout(winLose, 1000);
+    setTimeout(winLose, 500);
 
   });
 
@@ -100,7 +101,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    setTimeout(winLose, 1000);
+    setTimeout(winLose, 500);
 
   });
 
