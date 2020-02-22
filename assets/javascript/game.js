@@ -67,7 +67,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    winLose();
+    setTimeout(winLose, 1000);
 
   });
 
@@ -78,7 +78,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    winLose();
+    setTimeout(winLose, 1000);
 
   });
 
@@ -89,7 +89,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    winLose();
+    setTimeout(winLose, 1000);
 
   });
 
@@ -100,7 +100,7 @@ function userInterface() {
 
     $("#current-score").text(currentScore += crystalValue);
 
-    winLose();
+    setTimeout(winLose, 1000);
 
   });
 
